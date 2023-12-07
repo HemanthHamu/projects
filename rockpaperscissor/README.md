@@ -1,0 +1,1 @@
+i created this game using HTML,CSS and JavaScript. For computer move i have created a function which generates a random number and that random number will go towards conditional statements and give the result based on which condition is true.
