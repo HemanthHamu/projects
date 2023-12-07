@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+.container{
+    background:linear-gradient(10deg,blueviolet,rgb(203, 116, 116));
+    margin: 130px auto;
+    padding: 20px;
+    width: 550px;
+    height: 750px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(40, 187, 170);
+}
+span{
+    color: rgb(240, 247, 25);
+}
+p{
+    text-align: center;
+    color: azure;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#paper{
+    color: blueviolet;
+}
+.buttons img{
+    border-radius: 50%;
+    border: 3px dotted black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 80px;
+    margin-left: 25px;
+}
+.buttons button{
+    padding: -100px;
+}
+.info  {
+    display: flex;
+}
+.info p{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 65px;
+}
+button:hover{
+    background-color: rgb(143, 222, 238);
+    color: rgb(14, 13, 13);
+    transition: 0.5s;
+    border: 3px solid rgb(234, 12, 12);
+    cursor: pointer;
+}
+button:hover img{
+    color: white;
+}
+.result{
+    display: flex;
+    flex-direction: column ;
+    gap: 5px;
+}
+#demo,#demo2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#reset{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid blue;
+    margin-left: 189px;
+}
+#score{
+    background-color: black;
+    color: white;
+}
