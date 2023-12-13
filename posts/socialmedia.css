@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 0px 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(144, 244, 210);
+}
+.container{
+    background: linear-gradient(10deg,black,rgb(6, 88, 88));
+    color: white;
+    margin-top: 120px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    box-shadow: 0 0 10px #131313;
+    border: 2px solid #000;
+}
+.left{
+    margin: 50px 70px;
+}
+#userinput{
+    background: linear-gradient(10deg,rgb(193, 180, 180),whitesmoke);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+#userinput:focus{
+    outline: none;
+}
+.left button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+    background-color: #1A73E8;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.left button:hover{
+    background-color: #1652a1;
+    transition: 0.5s;
+}
+.right{
+  margin-top: 40px;
+}
+.post-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(10deg,black,rgb(9, 93, 93));
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    width: 600px;
+    overflow:hidden;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+#msg{
+    color: red;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.edit:hover{
+    font-size: 25px;
+}
+.trash:hover{
+    font-size: 25px;
+}
+
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .post-container{
+        width: 350px;
+        color: #fff;
+    }
+    #userinput{
+        width: 350px;
+        margin-left: -65px;
+    }
+    #form button{
+        margin-left: 70px;
+    }
+    .right p{
+        margin-left: 120px;
+        margin-top: -100px;
+    }
+}
